@@ -2,7 +2,12 @@ assembly/
 binning/
 annotation/
 taxonomy/
-trim/
+# Ignorar todo dentro de /trim/
+trim/*
+
+# Exceptuar fastqc_before y fastqc_after
+!trim/fastqc_before/
+!trim/fastqc_after/
 mapping/
 reads/
 krona/
