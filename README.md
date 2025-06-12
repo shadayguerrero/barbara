@@ -14,6 +14,27 @@ Este repositorio contiene los resultados de un análisis metagenómico realizado
 
 ---
 
+#### 1. Control de Calidad
+```bash
+# FastQC inicial
+fastqc *.fastq.gz
+
+# Trimming con TrimGalore
+trim_galore --paired --quality 20 --length 50 *.fastq.gz
+
+# FastQC post-trimming
+fastqc *_val_*.fq.gz
+```
+
+#### 2. Clasificación Taxonómica
+```bash
+# Kraken2 para clasificación inicial
+kraken2 --db k2_pluspfp --paired --output kraken.out --report kraken_report.txt
+
+# Bracken para refinamiento de abundancias
+bracken -d k2_pluspfp -i kraken_report.txt -o bracken.out -l S
+
+
 ## Control de calidad con FastQC
 
 ### Antes del trimming
@@ -41,7 +62,7 @@ Este repositorio contiene los resultados de un análisis metagenómico realizado
 
 ## Perfiles en formato BIOM
 
-Los archivos `.biom` generados pueden encontrarse en la carpeta [`biom/`]([biom/](https://github.com/shadayguerrero/barbara/tree/main/biom), listos para ser analizados con herramientas, **Phyloseq** o **Scikit-bio** u otras plataformas.
+Los archivos `.biom` generados pueden encontrarse en la carpeta [biom/](https://github.com/shadayguerrero/barbara/tree/main/biom), listos para ser analizados con herramientas, **Phyloseq** o **Scikit-bio** u otras plataformas.
 
 ---
 
