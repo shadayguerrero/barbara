@@ -41,7 +41,7 @@ Este repositorio contiene los resultados de un análisis metagenómico realizado
 
 ## Perfiles en formato BIOM
 
-Los archivos `.biom` generados pueden encontrarse en la carpeta [`biom/`]([biom/](https://github.com/shadayguerrero/barbara/tree/main/biom)), listos para ser analizados con herramientas, **Phyloseq** o **Scikit-bio** u otras plataformas.
+Los archivos `.biom` generados pueden encontrarse en la carpeta [`biom/`]([biom/](https://github.com/shadayguerrero/barbara/tree/main/biom), listos para ser analizados con herramientas, **Phyloseq** o **Scikit-bio** u otras plataformas.
 
 ---
 
