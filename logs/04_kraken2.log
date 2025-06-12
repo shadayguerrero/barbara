@@ -1,0 +1,68 @@
+=== Iniciando clasificación taxonómica con Kraken2 ===
+Activando ambiente micromamba: metagenomics
+Procesando clasificación taxonómica para todas las muestras...
+Procesando muestra: CT_FKDN25H000391-1A_22NWHGLT4_L5
+  R1: CT_FKDN25H000391-1A_22NWHGLT4_L5_1_val_1.fq.gz
+  R2: CT_FKDN25H000391-1A_22NWHGLT4_L5_2_val_2.fq.gz
+  Ejecutando Kraken2...
+Loading database information... done.
+39228932 sequences (11727.37 Mbp) processed in 382.689s (6150.5 Kseq/m, 1838.68 Mbp/m).
+  17570887 sequences classified (44.79%)
+  21658045 sequences unclassified (55.21%)
+  ✓ Kraken2 completado para CT_FKDN25H000391-1A_22NWHGLT4_L5
+    Total reads: 39228932
+    Clasificados: 17570887
+    No clasificados: 21658045
+    Tasa de clasificación: 44.79%
+
+Procesando muestra: ST_FKDN25H000392-1A_22NWHGLT4_L5
+  R1: ST_FKDN25H000392-1A_22NWHGLT4_L5_1_val_1.fq.gz
+  R2: ST_FKDN25H000392-1A_22NWHGLT4_L5_2_val_2.fq.gz
+  Ejecutando Kraken2...
+Loading database information... done.
+31609269 sequences (9450.02 Mbp) processed in 318.117s (5961.8 Kseq/m, 1782.37 Mbp/m).
+  12894351 sequences classified (40.79%)
+  18714918 sequences unclassified (59.21%)
+  ✓ Kraken2 completado para ST_FKDN25H000392-1A_22NWHGLT4_L5
+    Total reads: 31609269
+    Clasificados: 12894351
+    No clasificados: 18714918
+    Tasa de clasificación: 40.79%
+
+✓ Clasificación taxonómica completada para todas las muestras
+Resultados guardados en: /home_local/camda/shaday/barbara/taxonomy/kraken_output
+
+=== RESUMEN KRAKEN2 ===
+Archivos generados:
+-rw-rw-r-- 1 camda camda 4083999385 Jun 11 09:39 /home_local/camda/shaday/barbara/taxonomy/kraken_output/CT_FKDN25H000391-1A_22NWHGLT4_L5_kraken2.out
+-rw-rw-r-- 1 camda camda 3183460766 Jun 11 09:53 /home_local/camda/shaday/barbara/taxonomy/kraken_output/ST_FKDN25H000392-1A_22NWHGLT4_L5_kraken2.out
+-rw-rw-r-- 1 camda camda 1571715 Jun 11 09:43 /home_local/camda/shaday/barbara/taxonomy/kraken_output/CT_FKDN25H000391-1A_22NWHGLT4_L5_kraken2_report.txt
+-rw-rw-r-- 1 camda camda 1565680 Jun 11 09:55 /home_local/camda/shaday/barbara/taxonomy/kraken_output/ST_FKDN25H000392-1A_22NWHGLT4_L5_kraken2_report.txt
+
+=== TOP 10 TAXONES MÁS ABUNDANTES ===
+Muestra: CT_FKDN25H000391-1A_22NWHGLT4_L5
+Rank | %Reads | Reads | Taxon
+R    |  44.79 | 17570887 | root
+R1   |  44.76 | 17558839 | cellular
+R2   |  41.95 | 16456523 | Bacteria
+K    |  24.45 |  9591693 | Bacillati
+P    |  23.79 |  9333835 | Actinomycetota
+C    |  22.06 |  8655631 | Actinomycetes
+O    |   6.83 |  2680815 | Kitasatosporales
+F    |   6.83 |  2680800 | Streptomycetaceae
+G    |   6.21 |  2436336 | Streptomyces
+G1   |   3.48 |  1363411 | unclassified
+
+Muestra: ST_FKDN25H000392-1A_22NWHGLT4_L5
+Rank | %Reads | Reads | Taxon
+R    |  40.79 | 12894351 | root
+R1   |  40.76 | 12885411 | cellular
+R2   |  38.03 | 12022105 | Bacteria
+K    |  18.92 |  5980103 | Bacillati
+P    |  18.21 |  5757151 | Actinomycetota
+C    |  16.92 |  5347135 | Actinomycetes
+O    |   5.03 |  1590131 | Kitasatosporales
+F    |   5.03 |  1590122 | Streptomycetaceae
+G    |   4.57 |  1444498 | Streptomyces
+G1   |   2.49 |   785941 | unclassified
+

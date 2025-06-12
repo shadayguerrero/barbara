@@ -1,0 +1,22 @@
+=== Verificando estructura de directorios ===
+Verificando directorios de entrada...
+Verificando archivos de reads...
+✓ Archivos encontrados para muestra: CT_FKDN25H000391-1A_22NWHGLT4_L5
+✓ Archivos encontrados para muestra: ST_FKDN25H000392-1A_22NWHGLT4_L5
+Creando directorios de salida...
+✓ Estructura de directorios creada exitosamente
+✓ Verificación completada
+
+=== RESUMEN ===
+Directorio base: /home_local/camda/shaday/barbara
+Reads: /home_local/camda/shaday/barbara/reads
+Scripts: /home_local/camda/shaday/barbara/src
+Base de datos Kraken: /home_local/compartida/camda2024/k2_pluspfp_20250402
+
+Directorios de salida creados:
+- Trimming: /home_local/camda/shaday/barbara/trim
+- Taxonomía: /home_local/camda/shaday/barbara/taxonomy
+- Ensamblaje: /home_local/camda/shaday/barbara/assembly
+- Mapeo: /home_local/camda/shaday/barbara/mapping
+- Binning: /home_local/camda/shaday/barbara/binning
+- Anotación: /home_local/camda/shaday/barbara/annotation

@@ -1,0 +1,20 @@
+=== Iniciando FastQC antes del trimming ===
+Activando ambiente micromamba: metagenomics
+Procesando FastQC para todas las muestras...
+Procesando muestra: CT_FKDN25H000391-1A_22NWHGLT4_L5
+application/gzip
+application/gzip
+✓ FastQC completado para CT_FKDN25H000391-1A_22NWHGLT4_L5
+Procesando muestra: ST_FKDN25H000392-1A_22NWHGLT4_L5
+application/gzip
+application/gzip
+✓ FastQC completado para ST_FKDN25H000392-1A_22NWHGLT4_L5
+✓ FastQC inicial completado para todas las muestras
+Resultados guardados en: /home_local/camda/shaday/barbara/trim/fastqc_before
+
+=== RESUMEN FastQC INICIAL ===
+Archivos generados:
+-rw-rw-r-- 1 camda camda 235723 Jun 11 08:31 /home_local/camda/shaday/barbara/trim/fastqc_before/CT_FKDN25H000391-1A_22NWHGLT4_L5_1_fastqc.html
+-rw-rw-r-- 1 camda camda 231967 Jun 11 08:31 /home_local/camda/shaday/barbara/trim/fastqc_before/CT_FKDN25H000391-1A_22NWHGLT4_L5_2_fastqc.html
+-rw-rw-r-- 1 camda camda 235432 Jun 11 08:36 /home_local/camda/shaday/barbara/trim/fastqc_before/ST_FKDN25H000392-1A_22NWHGLT4_L5_1_fastqc.html
+-rw-rw-r-- 1 camda camda 233792 Jun 11 08:36 /home_local/camda/shaday/barbara/trim/fastqc_before/ST_FKDN25H000392-1A_22NWHGLT4_L5_2_fastqc.html

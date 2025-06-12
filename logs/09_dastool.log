@@ -1,0 +1,5 @@
+=== Iniciando DasTool para refinamiento de bins ===
+Activando ambiente conda: binning_env
+/home_local/camda/shaday/barbara/src/09_dastool.sh: line 17: /home_local/camda/miniconda3/etc/profile.d/conda.sh: No such file or directory
+/home_local/camda/shaday/barbara/src/09_dastool.sh: line 18: conda: command not found
+ERROR: DasTool no está disponible en el ambiente binning_env

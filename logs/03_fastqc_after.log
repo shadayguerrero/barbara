@@ -1,0 +1,27 @@
+=== Iniciando FastQC después del trimming ===
+Activando ambiente micromamba: metagenomics
+Buscando archivos trimmed...
+Archivos trimmed encontrados:
+/home_local/camda/shaday/barbara/trim/trimmed_reads/ST_FKDN25H000392-1A_22NWHGLT4_L5_2_val_2.fq.gz
+/home_local/camda/shaday/barbara/trim/trimmed_reads/ST_FKDN25H000392-1A_22NWHGLT4_L5_1_val_1.fq.gz
+/home_local/camda/shaday/barbara/trim/trimmed_reads/CT_FKDN25H000391-1A_22NWHGLT4_L5_1_val_1.fq.gz
+/home_local/camda/shaday/barbara/trim/trimmed_reads/CT_FKDN25H000391-1A_22NWHGLT4_L5_2_val_2.fq.gz
+
+Ejecutando FastQC en archivos trimmed...
+application/gzip
+application/gzip
+application/gzip
+application/gzip
+✓ FastQC post-trimming completado
+Resultados guardados en: /home_local/camda/shaday/barbara/trim/fastqc_after
+
+=== RESUMEN FastQC POST-TRIMMING ===
+Archivos HTML generados:
+-rw-rw-r-- 1 camda camda 225433 Jun 11 09:29 /home_local/camda/shaday/barbara/trim/fastqc_after/CT_FKDN25H000391-1A_22NWHGLT4_L5_1_val_1_fastqc.html
+-rw-rw-r-- 1 camda camda 220645 Jun 11 09:29 /home_local/camda/shaday/barbara/trim/fastqc_after/CT_FKDN25H000391-1A_22NWHGLT4_L5_2_val_2_fastqc.html
+-rw-rw-r-- 1 camda camda 222777 Jun 11 09:28 /home_local/camda/shaday/barbara/trim/fastqc_after/ST_FKDN25H000392-1A_22NWHGLT4_L5_1_val_1_fastqc.html
+-rw-rw-r-- 1 camda camda 225850 Jun 11 09:28 /home_local/camda/shaday/barbara/trim/fastqc_after/ST_FKDN25H000392-1A_22NWHGLT4_L5_2_val_2_fastqc.html
+
+=== COMPARACIÓN ANTES/DESPUÉS ===
+FastQC antes del trimming: /home_local/camda/shaday/barbara/trim/fastqc_before
+FastQC después del trimming: /home_local/camda/shaday/barbara/trim/fastqc_after

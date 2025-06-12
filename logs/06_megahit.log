@@ -1,0 +1,29 @@
+=== Iniciando ensamblaje con MEGAHIT ===
+Activando ambiente micromamba: megahit
+Buscando archivos trimmed...
+Archivos R1 encontrados:
+/home_local/camda/shaday/barbara/trim/trimmed_reads/CT_FKDN25H000391-1A_22NWHGLT4_L5_1_val_1.fq.gz
+/home_local/camda/shaday/barbara/trim/trimmed_reads/ST_FKDN25H000392-1A_22NWHGLT4_L5_1_val_1.fq.gz
+
+Archivos R2 encontrados:
+/home_local/camda/shaday/barbara/trim/trimmed_reads/CT_FKDN25H000391-1A_22NWHGLT4_L5_2_val_2.fq.gz
+/home_local/camda/shaday/barbara/trim/trimmed_reads/ST_FKDN25H000392-1A_22NWHGLT4_L5_2_val_2.fq.gz
+
+Lista R1: /home_local/camda/shaday/barbara/trim/trimmed_reads/CT_FKDN25H000391-1A_22NWHGLT4_L5_1_val_1.fq.gz,/home_local/camda/shaday/barbara/trim/trimmed_reads/ST_FKDN25H000392-1A_22NWHGLT4_L5_1_val_1.fq.gz
+Lista R2: /home_local/camda/shaday/barbara/trim/trimmed_reads/CT_FKDN25H000391-1A_22NWHGLT4_L5_2_val_2.fq.gz,/home_local/camda/shaday/barbara/trim/trimmed_reads/ST_FKDN25H000392-1A_22NWHGLT4_L5_2_val_2.fq.gz
+Eliminando directorio de salida existente...
+
+Ejecutando MEGAHIT...
+Esto puede tomar varias horas dependiendo del tamaño de los datos...
+2025-06-11 09:56:42 - MEGAHIT v1.2.9
+2025-06-11 09:56:42 - Using megahit_core with POPCNT and BMI2 support
+2025-06-11 09:56:42 - Convert reads to binary library
+2025-06-11 09:57:59 - b'INFO  sequence/io/sequence_lib.cpp  :   75 - Lib 0 (/home_local/camda/shaday/barbara/trim/trimmed_reads/CT_FKDN25H000391-1A_22NWHGLT4_L5_1_val_1.fq.gz,/home_local/camda/shaday/barbara/trim/trimmed_reads/CT_FKDN25H000391-1A_22NWHGLT4_L5_2_val_2.fq.gz): pe, 78457864 reads, 150 max length'
+2025-06-11 09:59:04 - b'INFO  sequence/io/sequence_lib.cpp  :   75 - Lib 1 (/home_local/camda/shaday/barbara/trim/trimmed_reads/ST_FKDN25H000392-1A_22NWHGLT4_L5_1_val_1.fq.gz,/home_local/camda/shaday/barbara/trim/trimmed_reads/ST_FKDN25H000392-1A_22NWHGLT4_L5_2_val_2.fq.gz): pe, 63218538 reads, 150 max length'
+2025-06-11 09:59:04 - b'INFO  utils/utils.h                 :  152 - Real: 142.7326\tuser: 111.8399\tsys: 20.8136\tmaxrss: 250340'
+2025-06-11 09:59:04 - Start assembly. Number of CPU threads 8 
+2025-06-11 09:59:04 - k list: 21,41,61,81,101,121,141 
+2025-06-11 09:59:04 - Memory used: 865679920332
+2025-06-11 09:59:04 - Extract solid (k+1)-mers for k = 21 
+2025-06-11 10:27:28 - Build graph for k = 21 
+2025-06-11 12:18:57 - Assemble contigs from SdBG for k = 21

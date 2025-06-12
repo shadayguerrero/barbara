@@ -1,0 +1,25 @@
+=== Generando archivos BIOM desde Kraken2 ===
+Activando ambiente micromamba: metagenomics
+Verificando archivos de Kraken2...
+Reportes de Kraken2 encontrados:
+/home_local/camda/shaday/barbara/taxonomy/kraken_output/ST_FKDN25H000392-1A_22NWHGLT4_L5_kraken2_report.txt
+/home_local/camda/shaday/barbara/taxonomy/kraken_output/CT_FKDN25H000391-1A_22NWHGLT4_L5_kraken2_report.txt
+
+Generando archivo BIOM combinado...
+✓ Archivo BIOM generado exitosamente: /home_local/camda/shaday/barbara/taxonomy/biom_files/combined_taxonomy.biom
+✓ Archivo TSV generado: /home_local/camda/shaday/barbara/taxonomy/biom_files/combined_taxonomy.tsv
+
+Generando archivos BIOM individuales...
+✓ BIOM individual generado para ST_FKDN25H000392-1A_22NWHGLT4_L5
+✓ BIOM individual generado para CT_FKDN25H000391-1A_22NWHGLT4_L5
+
+Generando resumen de abundancias...
+✓ Resumen generado: /home_local/camda/shaday/barbara/taxonomy/biom_files/taxonomy_summary.txt
+
+=== ARCHIVOS BIOM GENERADOS ===
+-rw-rw-r-- 1 camda camda 3367936 Jun 11 09:56 /home_local/camda/shaday/barbara/taxonomy/biom_files/combined_taxonomy.biom
+-rw-rw-r-- 1 camda camda 2979383 Jun 11 09:56 /home_local/camda/shaday/barbara/taxonomy/biom_files/CT_FKDN25H000391-1A_22NWHGLT4_L5_taxonomy.biom
+-rw-rw-r-- 1 camda camda 2973701 Jun 11 09:56 /home_local/camda/shaday/barbara/taxonomy/biom_files/ST_FKDN25H000392-1A_22NWHGLT4_L5_taxonomy.biom
+-rw-rw-r-- 1 camda camda 2189649 Jun 11 09:56 /home_local/camda/shaday/barbara/taxonomy/biom_files/combined_taxonomy.tsv
+-rw-rw-r-- 1 camda camda  216 Jun 11 09:56 /home_local/camda/shaday/barbara/taxonomy/biom_files/kraken_reports_list.txt
+-rw-rw-r-- 1 camda camda 1035 Jun 11 09:56 /home_local/camda/shaday/barbara/taxonomy/biom_files/taxonomy_summary.txt

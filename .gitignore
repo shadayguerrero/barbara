@@ -1,0 +1,13 @@
+assembly/
+binning/
+annotation/
+taxonomy/
+trim/
+mapping/
+reads/
+krona/
+#!krona/CT_FKDN25H000391-1A_22NWHGLT4_L5_krona.out.html
+*.html.files/
+.Rhistory
+.RData
+.Rproj.user/

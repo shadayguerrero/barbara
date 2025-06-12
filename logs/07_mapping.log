@@ -1,0 +1,5 @@
+=== Iniciando mapeo de reads a contigs ===
+Activando ambiente conda: mapping_env
+/home_local/camda/shaday/barbara/src/07_mapping.sh: line 17: /home_local/camda/miniconda3/etc/profile.d/conda.sh: No such file or directory
+/home_local/camda/shaday/barbara/src/07_mapping.sh: line 18: conda: command not found
+ERROR: BWA no está disponible en el ambiente mapping_env
